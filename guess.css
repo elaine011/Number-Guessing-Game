@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
+}
+
+div.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 50%;
+  height: 90%;
+  top: 5%;
+  left: 25%;
+  padding: 1rem 0.5rem;
+  background-color: white;
+  border-radius: 12px;
+  min-width: 480px;
+}
+div.container h1 {
+  color: rgb(239, 37, 37);
+}
+div.container p {
+  margin: 1rem;
+  font-size: 18px;
+}
+div.container ol {
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+div.container ol li {
+  word-wrap: normal;
+}
+div.container input {
+  border-radius: 5px;
+  padding: 12px 16px;
+  font-size: 14px;
+}
+div.container button {
+  padding: 12px 18px;
+  border-radius: 16px;
+  font-size: 18px;
+  background-color: #7028e4;
+  color: white;
+  border: 0;
+}/*# sourceMappingURL=guess.css.map */

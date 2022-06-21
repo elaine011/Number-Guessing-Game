@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>數字猜猜猜</title>
+    <link rel="stylesheet" href="guess.css">
+</head>
+<body>
+    <div class="container">
+        <h1>數字猜猜猜</h1>
+        <p>請從0 ~ 100之間猜一個數</p>
+        <ol>
+            <li>於以下欄位輸入您所要猜測的數字</li>
+            <li>我們將根據您所猜測的數字給予範圍的提示</li>
+            <li>請您根據提示繼續猜中最終的結果</li>
+            <li>加油!!!</li>
+        </ol>
+
+        <input id="guess" type="number" placeholder="請輸入0~100的數字"><br/>
+        <button id="btn" onclick="guessGame()">我猜</button>
+
+        <div class="feedback">
+            <p id="feedback">您猜了: </p>
+            <p id="feedback2">您猜過: </p>
+            <p id="feedback3"></p>
+        </div>
+    </div>
+    <script src="guess.js"></script>
+</body>
+</html>
+
